@@ -27,7 +27,7 @@
 		"scripts": [ "background.js" ]
 	},
 	
-	"omnibox": { "keyword" : "a" },
+	"omnibox": { "keyword" : "j" },
 	
 	"options_ui": {
 		"page": "option.html",
