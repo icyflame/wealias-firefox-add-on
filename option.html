@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="option.css"/>
+</head>
+<body>
+	<div class="grid-container">
+		<div class="titol">
+			<img src="icons/wealias-48.png" alt="" id="logo">
+			WEAlias settings
+		</div>
+		<div class="options">
+			 <input type="checkbox" id="addyes">Allow FastAdd
+		</div>
+		<div class="help">
+			<p class="switch" id="switch2">Show help</p>
+			<p class="text_help" id="text_help2">
+				Type '_add <em>alias</em>' in the inputbox/URL bar to add a new alias bound to the current URL you are.<br>
+				In order to use this feature, the <em>tabs</em> permission needs to be granted.<br>
+				If you tick the option you will be asked for grant this permission, and you can revoke it anytime you want unticking it.
+			</p>
+		</div>
+		<div class="options">
+			List of alias:<br>
+			<textarea id="alias-list" rows="22" cols="60"></textarea>
+		</div>
+		<div class="help">
+			<p class="switch" id="switch1">Show help</p>
+			<p class="text_help" id="text_help1">
+				Each entry of the list has format <b>alias</b><em>&#8826;space&#8827;</em><b>URL</b><br>
+				Type <b>alias text</b> into the input box and the current tab will be updated with corresponding <b>URL</b>.<br>
+				> <b>`1</b>, <b>`2</b>, etc. replaces the word <b>digit<em>th</em></b> of <b>text</b> on <b>URL</b>.<br>
+				> <b>`s</b> is replaced with any leftover <b>text</b> parts unmatched by <b>`digit</b> placeholders.<br>
+				> If <b>`s</b> is not used, any leftover <b>text</b> parts are appended to resulting URL.<br>
+				The <b>"*"</b> is the default alias for any un-matched text.<br>
+				<br>Example configuration:<br>
+				<textarea rows="3" cols="64" readonly="true">
+mail&#9;https://gmail.com/
+b&#9;https://`s.blogspot.com/
+wiki&#9;https://`1.wikipedia.org/wiki/`s
+gt&#9;http://translate.google.com/#`1/`2/</textarea>
+				<br>Transformations:<br>
+				<textarea rows="3" cols="64" readonly="true">
+mail            => https://gmail.com/
+b google        => https://google.blogspot.com/
+wiki en firefox => https://en.wikipedia.org/wiki/firefox
+gt en fr hello  => http://translate.google.com/#`1/`2/hello</textarea>
+			</p>
+		</div>
+		<div class="boto">
+			<button class="button" id="save-button" disabled="true">Save</button>
+		</div>
+	</div>
+
+	<script src="option.js"></script>
+
+</body>
+</html>

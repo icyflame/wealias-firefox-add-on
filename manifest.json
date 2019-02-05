@@ -1,0 +1,57 @@
+{
+	"manifest_version": 2,
+	"name": "WEAlias",
+	"version": "1.7",
+
+	"description": "Binds alias to URLs.",
+
+	"applications": {
+		"gecko": {
+			"strict_min_version": "55.0"
+		}
+	},
+	
+	"icons": {
+		"48": "icons/wealias-48.png"
+	},
+
+	"permissions": [
+		"storage"
+	],
+	
+	"optional_permissions": [
+		"tabs"
+	],
+	
+	"background": {
+		"scripts": [ "background.js" ]
+	},
+	
+	"omnibox": { "keyword" : "a" },
+	
+	"options_ui": {
+		"page": "option.html",
+		"browser_style": false,
+		"open_in_tab": true
+	},
+
+	"commands":{
+		"_execute_browser_action": {
+			"suggested_key": {
+				"default": "Alt+Q"
+			}
+		},
+		"show_popup_in_tab": {
+			"suggested_key": {
+				"default": "Alt+W"
+			}
+		}
+	},
+	
+	"browser_action": {
+		"default_icon": "icons/wealias-32.png",
+		"default_title": "WEAlias",
+		"default_popup": "popup.html",
+		"browser_style": false
+	}
+}

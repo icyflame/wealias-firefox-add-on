@@ -1,0 +1,74 @@
+Manifest-Version: 1.0
+
+Name: background.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: vq2B7SEZ4oxXrwUU5BH1KA==
+SHA1-Digest: yhlA6v+V213uhJDFkyQzbeA1ubU=
+SHA256-Digest: QffUUx4Pf/OX0YfSn1hy3GFKRGZAeIkK2QtJMeUOK08=
+
+Name: manifest.json
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: qIgXGN+O73MOI8kFjJCMtA==
+SHA1-Digest: HywKEJCULgztMF6OZZ+hkL0lDb0=
+SHA256-Digest: +ESi+Tj8LkAcfU4PDmMgL71SUar/3FdWQU88zm+Mkmc=
+
+Name: option.css
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: FfSajnr3SrWOC8iQQrmBKA==
+SHA1-Digest: UIN5Ugj/4d65tEhSgnCdI4d1/Bg=
+SHA256-Digest: Tw2zME/cmAlgV578oLc5/y6WnLx3jw6pC8YoFemduOA=
+
+Name: option.html
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: 4qTP7vBSHBgetDHT2h31aw==
+SHA1-Digest: 0APVZgn2xslVW8CeYh/1GDYgYbQ=
+SHA256-Digest: 31fSK6eIIQNblLZEzw+FaKYdniVRGRvAxIQaR9wgxx8=
+
+Name: option.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: 1wk8TAdi54C6ynhJ6XQhRA==
+SHA1-Digest: qMJZzbmMkfjgtTAi0Zw25kgvSvU=
+SHA256-Digest: HRw0xPLOiqwLZGydcbZXafAE50YjKb55wEog0duhzu0=
+
+Name: popup.css
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: h+zv6UeTARxKszOYxtgZgg==
+SHA1-Digest: v6H5gLwumByYY1A7L+79tjQ7Fd0=
+SHA256-Digest: K6RSoC0+DA8BEQD0c/YkZF/6iGJAi6pGDmzKF6gPgq8=
+
+Name: popup.html
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: kIF9rGeUgThYS7OU5iLYjg==
+SHA1-Digest: X+D9BGfOa5i2UUp3vEPwmDB8Eao=
+SHA256-Digest: sYXUh/dX9qk6b9nCdJZ3IM39oDKWkYmDRhraUUpxvR4=
+
+Name: popup.js
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: jYW0hrRiXjWzyHl4XC1sSQ==
+SHA1-Digest: pNx3jZGHwATpUIFHvvlnwq1YjW8=
+SHA256-Digest: wsmC5wlj29kmptcQkVDlo2IJKbDd1cOz0zY2YsiJndo=
+
+Name: icons/gear-24-gray.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: vtcuyjCIIus0xnpcP2I5/w==
+SHA1-Digest: RX0qCxHDgORevHNzMQ4zg/G0srk=
+SHA256-Digest: YQjshPQVPP5xmqeN0007PVT6zsQHM7OBWNtyRFRDfnM=
+
+Name: icons/wealias-24-gray.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: uj+p/Bfu7HrcPHqQbfdxkQ==
+SHA1-Digest: K7g1fmfgeky94g6HsDK7f6u+8mY=
+SHA256-Digest: CbZcndCV+MY3HYaXMcTr06Xj7VSffEVsTi4U/BV8fQc=
+
+Name: icons/wealias-32.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: NFxNPpQCbpxkoOJjNg8lVg==
+SHA1-Digest: dC1zmsULGpG5HPKJVqUZilN1Oqk=
+SHA256-Digest: coln0FLKNvCYFAMinZGaGhrCUJLGXQy6HfHOTu4CoQE=
+
+Name: icons/wealias-48.png
+Digest-Algorithms: MD5 SHA1 SHA256
+MD5-Digest: 1EAO52UGiCUcFdf+rJ0aJw==
+SHA1-Digest: aLeFN5mckWMSqjhDLwpUSpYMQKI=
+SHA256-Digest: sHLG4z3MTNM6mbobY5sOkDEG19n0zWXeYooesJ3Z0J4=
+
